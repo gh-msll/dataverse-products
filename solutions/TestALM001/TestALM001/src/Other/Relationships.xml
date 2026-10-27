@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_alm_products" />
+  <EntityRelationship Name="lk_alm_products_createdby" />
+  <EntityRelationship Name="lk_alm_products_modifiedby" />
+  <EntityRelationship Name="owner_alm_products" />
+  <EntityRelationship Name="team_alm_products" />
+  <EntityRelationship Name="user_alm_products" />
+</EntityRelationships>

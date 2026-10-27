@@ -1,0 +1,11 @@
+<botcomponent schemaname="csa_AgentFirst.topic.Products_x4tvww2NsonvaMPAg5Uxt">
+  <componenttype>16</componenttype>
+  <description>This knowledge source answers questions found in the following Dataverse items: Products</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Products</name>
+  <parentbotid>
+    <schemaname>csa_AgentFirst</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>
