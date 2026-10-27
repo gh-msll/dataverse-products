@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "appId": "bc15eb2e-a895-4c48-8537-515ea9b09c4e",
+  "appDisplayName": "Product CRUD App",
+  "region": "prod",
+  "environmentId": "7254e823-a8bc-e7f5-95b7-43b7ff327319",
+  "description": " ",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "localAppUrl": "http://localhost:3000",
+  "logoPath": "Default",
+  "connectionReferences": {
+    "f748ce50-d9c5-498d-90eb-d6ef53d56932": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_microsoftcopilotstudio",
+      "displayName": "Microsoft Copilot Studio",
+      "dataSources": [
+        "microsoftcopilotstudio"
+      ],
+      "authenticationType": "oauthDefault",
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "dataSources": {
+        "products": {
+          "entitySetName": "alm_productses",
+          "logicalName": "alm_products"
+        }
+      },
+      "environmentVariableName": ""
+    }
+  }
+}
